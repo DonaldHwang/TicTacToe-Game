@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body {
+	margin-top: 100px;
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+td {
+	border: 5px solid white;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+}
+
+tr {
+	height:100px;
+	width: 300px;
+}
+
+h1 {
+	color: white;
+}
+
+span#turn {
+	color:white;
+}
+
+span#value1 {
+	color:white;
+}
+
+span#iq {
+	color:white;
+}
+
+div#tic-tac-toe {
+	text-align: center;
+}
+
+div#result {
+	text-align: center;
+	color:white;
+}
+div#button {
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	text-align: center;
+}
+
+input#begin {
+	width: 100px;
+	height: 35px;
+	background-color: white;  
+    border-color: white;  
+    color: black;  
+	border-radius: 10px;
+    text-align: center;  
+    border: 1px solid transparent; 
+	font-weight: 900;  
+   	font-size:125%  
+}
+
+input#confirm {
+	width: 80px;
+	height: 25px;
+	background-color: white;  
+    border-color: white;  
+    color: black;  
+	border-radius: 6px;
+    text-align: center;  
+    border: 1px solid transparent; 
+	font-weight: 600;  
+   	font-size:100% ;
+}
+
+.grid {
+	height:100px;
+	width:100px;
+	margin:auto;
+	text-align: center;
+	vertical-align: middle;
+	background: rgba(255,255,255,0.3);
+	font-size: 80px;
+	color:white;
+}
